@@ -1,0 +1,85 @@
+<html>
+    <head>   <br><center><i><b><font size=5>TBI REGISTRATION</font></b></i></center></head>
+ 
+
+           <body>
+                    <div>
+                        <br><br><br><center><input type="radio" name="sec" value="3d" required="required"/>3D Printing
+                        <input type="radio" name="sec"  value="iot" required="required" />Internet of things
+                        <input type="radio" name="sec"  value="vr" required="required" />Virtual reality
+                        <input type="radio" name="sec"  value="drones" required="required"/>Drones</center>
+
+
+            <br><br><center><fieldset style="width:850;"> <center><table>
+
+            <form action="reg.php" method="post">
+                    
+                
+                <tr>
+                    <td><label>Regno</label></td>
+                    <td><input type="number" name="regno" required="req"/></td>
+                </tr>
+
+                     <tr>
+                     <td><label>Date</label></td>
+                     <td><input type="date" name="Date" required="required"/></td>
+                 </tr>
+                 <tr>
+                     <td><label>Name of the Incubatee(personal name)</label></td>
+                     <td><input type="text" name="Incubateename" required="required"/></td>
+                 </tr>
+                <tr>
+                    <td><label>Contact No</label></td>
+                    <td><input type="number" name="Contactno" maxlength="10" required="required"/></td>
+
+                </tr>
+                <tr>
+                    <td><label>Email ID</label></td>
+                    <td><input type="email" name="email" required="required"/></td>
+                </tr>
+                <tr>
+                     <td><label>Name of the proposed Incubatee(company name)</label></td>
+                     <td><input type="text" name="companyname" required="required"/></td>
+                 </tr>
+                 <tr>
+                     <td><label>Type of Incubatee</label></td>
+                     <td><input type="radio" name="type" value="student" required="required"/>Student
+                        <input type="radio" name="type"  value="Faculty" required="required"/>Faculty
+                        <input type="radio" name="type"  value="Entrepreneur" required="required"/>Entrepreneur
+                    </td>
+                 </tr>
+                 <tr>
+                     <td><label>Individual or partnership(please state the other names,if it is a partnership ventures)</label></td>
+                     <td><input type="text" name="partnership" required="required"/></td>
+                 </tr>
+                 <tr>
+                     <td><label>Nature of Incuabatee business</label></td>
+                     <td><input type="radio" name="business" value="product" required="required"/>Product
+                        <input type="radio" name="business"  value="service" required="required"/>Service
+                        <input type="radio" name="business"  value="others" required="required"/>Others
+                    </td>
+                 </tr>
+                 <tr>
+                     <td><label>Registration Details(company formation)-proprietorship/LLP/Private limited,etc.,(specify)</label></td>
+                     <td><textarea name="detail"> </textarea></td>
+                 </tr>
+                 <tr>
+                     <td><label>Start up Registration Details(MSME/startup India/etc.,)(specify)</label></td>
+                     <td><textarea name="registrate"></textarea></td>
+                 </tr>
+                 <tr>
+                     <td><label>Problem Statement(which will be addressed through the incubation process)</label></td>
+                     <td><textarea name="problem"></textarea></td>
+                 </tr>
+                 <tr>
+                   
+                    <td><input type="submit" name=submit value="Register"></td>
+                </tr>
+          
+</form>
+
+         </div>
+        </table></center>
+    </fieldset></center>
+    </body>
+</html>
